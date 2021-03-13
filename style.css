@@ -1,0 +1,149 @@
+*{
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    float: right;
+    margin-right: 4%;
+    color: rgb(107, 82, 82);
+    margin-top: 2%;
+
+}
+
+.marg{
+    margin-right: 150px;
+}
+
+.pics{
+    width: 100%;
+}
+
+.pic2{
+    width: inherit;
+}
+   
+
+
+.contact{
+    width: 47%;
+    padding: 5%;
+}
+
+.forms{
+    width:47%;
+    padding: 5%;
+}
+input, textarea{
+    width: 100%;
+    height: 6%;
+    border-radius: 10px;
+    outline: none;
+}
+
+input{
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-bottom: 0;
+    border-top: 3px solid black;
+}
+
+.pic1{
+    float: left;
+    
+}
+
+.but{
+    width: 47%;
+    height: 10%;
+    overflow: auto;
+    margin-top: 30px;
+   
+}
+
+.but2{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    color: rgb(2, 32, 2);
+    font-size: 20px;
+    background-color: orange;
+    
+}
+
+.phone{
+    margin-left: 150%;
+    width: 70%;
+    font-size: 20px ;
+    color: rgb(107, 82, 82);
+    padding: 20px;
+    margin-top: -130%;
+    border: solid green;
+}
+
+b{
+    color: black;
+}
+
+.row{
+    height:150px; 
+    
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+#message{
+    height: inherit;
+}
+
+a:hover{
+    color: red;
+}
+
+@media(max-width:650px){
+    button{
+        font-size: 15px;
+    }
+
+    .phone{
+        font-size: 13px;
+        background-color: black;
+        margin-top: 0;
+        margin-left: 0;
+        width:100%;
+
+    }
+    b{
+        color:white;
+    }
+    .contact{
+        font-size: 15px;
+        width:100%;
+        border-bottom: 1px solid black;
+        padding: 1%;
+    }
+
+    a{
+        font-size: 10px;
+        margin-right: 2%;
+    }
+
+    .pic1{
+        width: 15%;
+    }
+
+    .marg{
+        margin-right: 0;
+    }
+
+    .forms{
+        width: 100%;
+    }
+}
+
+
